@@ -1,0 +1,173 @@
+body {
+    font-family: Roboto, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    font-size: 18px;
+}
+
+.header {
+    padding: 0px 100px;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    padding: 0px 100px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+    padding: 100px 100px;
+    gap: 100px;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    margin: 32px;
+    padding: 16px;
+    text-align: center;
+}
+
+.comments {
+    background-color: #E5E7EB;
+    padding: 100px 100px;
+}
+
+.quote-box {
+    margin: auto;
+    width: 60%;
+}
+
+.box {
+    padding: 50px 0px;
+    margin: auto;
+    width: 70%;
+}
+
+.box-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    gap: 50px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.heading1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding-bottom: 8px;
+}
+
+.heading2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.heading3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding-bottom: 4px;
+}
+
+.summary {
+    color: #E5E7EB;
+    padding-bottom: 8px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3882F6;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 4px 24px;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.introduction button {
+    border: 2px solid #3882F6;
+}
+
+.box button {
+    border: 2px solid #F9FAF8;
+}
+
+.introduction img,
+.intro-text {
+    width: 600px;
+    height: auto;
+    margin: 10px 0px;
+}
+
+.contents img {
+    width: 250px;
+    height: auto;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+}
